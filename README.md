@@ -24,7 +24,8 @@
     - [socket编程][4]
     - [字符串模板][5]
     - [命令行参数解析optparse][6]
-
+    - [cmd模块][7]
+    - [对XML进行操作][8]
 
 
 
@@ -36,3 +37,5 @@
 [4]: CorePythonProgramming/socket.md
 [5]: CorePythonProgramming/string-template.md
 [6]: CorePythonProgramming/optparse.md
+[7]: CorePythonProgramming/cmd.md
+[8]: CorePythonProgramming/xml.md
