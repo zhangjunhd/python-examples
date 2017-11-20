@@ -21,6 +21,7 @@
         - random.random()和random.uniform()
         - random.choice()和random.sample()
         - random.shuffle()
+    - [socket编程][4]
 
 
 
@@ -31,3 +32,4 @@
 [1]: CorePythonProgramming/exception-handling.md
 [2]: CorePythonProgramming/time.md
 [3]: CorePythonProgramming/random.md
+[4]: CorePythonProgramming/socket.md
