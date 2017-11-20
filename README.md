@@ -15,6 +15,12 @@
         - struct_time
         - 解析与格式化时间
         - 使用Time Zone
+    - [产生随机数][3]
+        - random.randint()
+        - random.randrange()
+        - random.random()和random.uniform()
+        - random.choice()和random.sample()
+        - random.shuffle()
 
 
 
@@ -24,3 +30,4 @@
 [0]: CorePythonProgramming/
 [1]: CorePythonProgramming/exception-handling.md
 [2]: CorePythonProgramming/time.md
+[3]: CorePythonProgramming/random.md
