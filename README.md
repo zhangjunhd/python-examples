@@ -22,6 +22,7 @@
         - random.choice()和random.sample()
         - random.shuffle()
     - [socket编程][4]
+    - [字符串模板][5]
 
 
 
@@ -33,3 +34,4 @@
 [2]: CorePythonProgramming/time.md
 [3]: CorePythonProgramming/random.md
 [4]: CorePythonProgramming/socket.md
+[5]: CorePythonProgramming/string-template.md
