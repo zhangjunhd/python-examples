@@ -8,6 +8,13 @@
         - 断言
         - 异常与sys模块
         - traceback
+    - [处理时间][2]
+        - time.time()
+        - time.ctime()
+        - time.clock()
+        - struct_time
+        - 解析与格式化时间
+        - 使用Time Zone
 
 
 
@@ -16,3 +23,4 @@
 
 [0]: CorePythonProgramming/
 [1]: CorePythonProgramming/exception-handling.md
+[2]: CorePythonProgramming/time.md
