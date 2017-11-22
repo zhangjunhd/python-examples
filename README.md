@@ -26,7 +26,7 @@
     - [命令行参数解析optparse][6]
     - [cmd模块][7]
     - [对XML进行操作][8]
-
+    - [参数形式传递函数][9]
 
 
 
@@ -39,3 +39,4 @@
 [6]: CorePythonProgramming/optparse.md
 [7]: CorePythonProgramming/cmd.md
 [8]: CorePythonProgramming/xml.md
+[9]: CorePythonProgramming/func_arg.md
