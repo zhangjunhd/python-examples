@@ -27,6 +27,7 @@
     - [cmd模块][7]
     - [对XML进行操作][8]
     - [参数形式传递函数][9]
+    - [多线程编程][10]
 
 
 
@@ -40,3 +41,4 @@
 [7]: CorePythonProgramming/cmd.md
 [8]: CorePythonProgramming/xml.md
 [9]: CorePythonProgramming/func_arg.md
+[10]: CorePythonProgramming/threading.md
