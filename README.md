@@ -28,6 +28,10 @@
     - [对XML进行操作][8]
     - [参数形式传递函数][9]
     - [多线程编程][10]
+    - [base64编码][11]
+        - base64编码
+        - base64解码
+        - URL_Safe变体
 
 
 
@@ -42,3 +46,4 @@
 [8]: CorePythonProgramming/xml.md
 [9]: CorePythonProgramming/func_arg.md
 [10]: CorePythonProgramming/threading.md
+[11]: CorePythonProgramming/base64.md
