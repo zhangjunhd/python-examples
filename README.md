@@ -36,6 +36,7 @@
     - [格式化输出][13]
     - [序列化][14]
     - [使用chardet检测字符编码][15]
+    - [logging][16]
 
 
 [0]: CorePythonProgramming/
@@ -54,3 +55,4 @@
 [13]: CorePythonProgramming/print.md
 [14]: CorePythonProgramming/pickle.md
 [15]: CorePythonProgramming/chardet.md
+[16]: CorePythonProgramming/logging.md
