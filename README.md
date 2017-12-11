@@ -35,6 +35,7 @@
     - [重载操作符][12]
     - [格式化输出][13]
     - [序列化][14]
+    - [使用chardet检测字符编码][15]
 
 
 [0]: CorePythonProgramming/
@@ -52,3 +53,4 @@
 [12]: CorePythonProgramming/override-op.md
 [13]: CorePythonProgramming/print.md
 [14]: CorePythonProgramming/pickle.md
+[15]: CorePythonProgramming/chardet.md
