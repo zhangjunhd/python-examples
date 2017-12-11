@@ -37,6 +37,7 @@
     - [序列化][14]
     - [使用chardet检测字符编码][15]
     - [logging][16]
+    - [全局变量与global语句][17]
 
 
 [0]: CorePythonProgramming/
@@ -56,3 +57,4 @@
 [14]: CorePythonProgramming/pickle.md
 [15]: CorePythonProgramming/chardet.md
 [16]: CorePythonProgramming/logging.md
+[17]: CorePythonProgramming/global.md
