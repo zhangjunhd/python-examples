@@ -34,7 +34,7 @@
         - URL_Safe变体
     - [重载操作符][12]
     - [格式化输出][13]
-
+    - [序列化][14]
 
 
 [0]: CorePythonProgramming/
@@ -51,3 +51,4 @@
 [11]: CorePythonProgramming/base64.md
 [12]: CorePythonProgramming/override-op.md
 [13]: CorePythonProgramming/print.md
+[14]: CorePythonProgramming/pickle.md
