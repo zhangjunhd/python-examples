@@ -38,6 +38,7 @@
     - [使用chardet检测字符编码][15]
     - [logging][16]
     - [全局变量与global语句][17]
+    - [collection小技巧][18]
 
 
 [0]: CorePythonProgramming/
@@ -58,3 +59,4 @@
 [15]: CorePythonProgramming/chardet.md
 [16]: CorePythonProgramming/logging.md
 [17]: CorePythonProgramming/global.md
+[18]: CorePythonProgramming/collection.md
