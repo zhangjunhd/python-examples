@@ -39,6 +39,7 @@
     - [logging][16]
     - [全局变量与global语句][17]
     - [collection小技巧][18]
+    - [生成器][19]
 
 
 [0]: CorePythonProgramming/
@@ -60,3 +61,4 @@
 [16]: CorePythonProgramming/logging.md
 [17]: CorePythonProgramming/global.md
 [18]: CorePythonProgramming/collection.md
+[19]: CorePythonProgramming/gen.md
