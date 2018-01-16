@@ -40,6 +40,7 @@
     - [全局变量与global语句][17]
     - [collection小技巧][18]
     - [生成器][19]
+    - [可变长参数][20]
 
 
 [0]: CorePythonProgramming/
@@ -62,3 +63,4 @@
 [17]: CorePythonProgramming/global.md
 [18]: CorePythonProgramming/collection.md
 [19]: CorePythonProgramming/gen.md
+[20]: CorePythonProgramming/var_arg.md
