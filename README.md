@@ -71,4 +71,4 @@
 
 [30]: ExpertPythonProgramming/
 [31]: ExpertPythonProgramming/SyntaxBestPracticesBelowTheClassLevel.md
-[32]: ExpertPythonProgramming/SyntaxBestPracticesAboveTheClassLevel
+[32]: ExpertPythonProgramming/SyntaxBestPracticesAboveTheClassLevel.md
