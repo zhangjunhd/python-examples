@@ -42,6 +42,7 @@
     - [生成器][19]
     - [可变长参数][20]
     - [实例属性与类属性][21]
+    - [元类编程][22]
 1. [Python高级编程][30]
     - [语法最佳实践——低于类级][31]
         - 列表推导
@@ -78,6 +79,7 @@
 [19]: CorePythonProgramming/gen.md
 [20]: CorePythonProgramming/var_arg.md
 [21]: CorePythonProgramming/property.md
+[22]: CorePythonProgramming/meta-class_programming.md
 
 [30]: ExpertPythonProgramming/
 [31]: ExpertPythonProgramming/SyntaxBestPracticesBelowTheClassLevel.md
