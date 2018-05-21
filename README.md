@@ -43,7 +43,7 @@
     - [可变长参数][20]
 1. [Python高级编程][30]
     - [语法最佳实践——低于类级][31]
-
+    - [语法最佳实践——类级][32]
 
 
 
@@ -71,3 +71,4 @@
 
 [30]: ExpertPythonProgramming/
 [31]: ExpertPythonProgramming/SyntaxBestPracticesBelowTheClassLevel.md
+[32]: ExpertPythonProgramming/SyntaxBestPracticesAboveTheClassLevel
