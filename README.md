@@ -55,6 +55,198 @@
         - 描述符和属性
         - 槽
         - 元编程
+1. [Programming in Python 3][40]
+    - [Data Types][41]
+        - IDENTIFIERS AND KEYWORDS
+            - dir()
+            - `__builtins__`
+            - single underscore
+            - gettext()
+        - INTEGRAL TYPES
+            - Integers
+                - Numeric Operators and Functions
+                - Integer Conversion Functions
+                - Integer Bitwise Operators
+                - int.bit_length()
+        - FLOATING-POINT TYPES
+            - Floating-Point Numbers
+            - The Math Module’s Functions and Constants
+            - Complex Numbers
+                - conjugate()
+            - Decimal Numbers
+        - STRINGS
+            - Python’s String Escapes
+            - ord()
+            - chr()
+            - Comparing Strings
+                - unicodedata.normalize()
+            - Slicing and Striding Strings
+            - String Operators and Methods
+                - String Methods
+                - str.join()
+                - * operator
+                - str.index()
+                - str.count(), str.endswith(), str.find(), str.rfind(), str.index(), str.rindex(), and str.startswith()
+                - str.partition(), str.rpartition()
+                - str.isdigit()
+                - str.translate()
+            - String Formatting with the str.format() Method
+                - str.format()
+                - Field Names
+                - Conversions
+                - Format Specifications
+                - locale
+            - Character Encodings
+                - str.encode()
+                - str.encode()
+
+## Collection Data Types
+- SEQUENCE TYPES
+    - Tuples
+        - Tuple index positions
+        - t.count(x)
+        - operators + (concatenation), * (replication), and [] (slice), and with in and not in
+        - the standard comparison operators (<, <=, ==, !=, >=, >)
+    - Named Tuples
+    - Lists
+        - List index positions
+        - List Methods
+        - sequence unpacking operator, an asterisk or star (*)
+        - starred expressions
+        - starred arguments
+    - List Comprehensions
+- SET TYPES
+    - Sets
+        - The standard set operators
+        - Set Methods and Operators
+    - Set Comprehensions
+    - Frozen Sets
+        - frozenset()
+- MAPPING TYPES
+    - Dictionaries
+        - Dictionary Methods
+        - dict.items(), dict.keys(), and dict.values() methods all return dictionary views
+        - membership operator, in
+        - intersection operator
+        - dict.get()
+    - Dictionary Comprehensions
+    - Default Dictionaries
+    - Ordered Dictionaries
+        - popitem()
+        - popitem(last=False)
+- ITERATING AND COPYING COLLECTIONS
+    - Iterators and Iterable Operations and Functions
+        - `__iter__()`,`__getitem__()`,`__next__()`,StopIteration
+        - Common Iterable Operators and Functions
+        - all(), any(), len(), min(), max(), and sum()
+        - range()
+        - zip()
+        - sorted(),reversed()
+    - Copying Collections
+        - operator (=)
+        - dict.copy() and set.copy()
+        - copy.copy()
+        - built-in collection types
+        - shallow-copy
+        - deep-copy
+
+## Control Structures and Functions
+- CONTROL STRUCTURES
+    - Conditional Branching
+    - Looping
+        - while Loops
+        - for Loops
+- EXCEPTION HANDLING
+    - Catching and Raising Exceptions
+        - Some of Python’s exception hierarchy
+        - Try ... except ... finally control flows
+    - Raising Exceptions
+    - Custom Exceptions
+- CUSTOM FUNCTIONS
+    - Argument and Parameter Unpacking
+    - Accessing Variables in the Global Scope
+        - global
+    - Lambda Functions
+    - Assertions
+
+## Object-Oriented Programming
+- THE OBJECT-ORIENTED APPROACH
+    - Object-Oriented Concepts and Terminology
+        - virtual
+- CUSTOM CLASSES
+    - Attributes and Methods
+        - Comparison Special Methods
+    - Inheritance and Polymorphism
+        - `__init__()`
+        - super()
+    - Using Properties to Control Attribute Access
+        - property()
+        - @property
+        - getter, setter, and docstring
+        - getter, setter, and deleter
+    - Creating Complete Fully Integrated Data Types
+        - Fundamental Special Methods
+        - Numeric and Bitwise Special Methods
+        - `__del__(self)`
+- CUSTOM COLLECTION CLASSES
+    - Collection Special Methods
+- FURTHER OBJECT-ORIENTED PROGRAMMING
+    - `__slots__`,`__dict__`
+    - Controlling Attribute Access
+        - `__getattr__()`, `__setattr__()`, and 
+        - Attribute Access Special Methods
+        - named tuples
+        - read-only properties
+        - `__getattr__()`,`__getattribute__()`
+        - `__class__`
+    - Functors
+        - `__call__()`
+        - closure
+        - people.sort(key=SortKey("surname")),people.sort(key=SortKey("surname", "forename"))
+        - operator.attrgetter(),people.sort(key=operator.attrgetter("surname", "forename"))
+    - Context Managers
+        - `__enter__()` and `__exit__()`
+        - with
+    - Descriptors
+        - `__get__()`, `__set__()`, and `__delete__()`
+    - Class Decorators
+        - nonlocal
+    - Abstract Base 
+        - The Numbers Module’s Abstract Base Classes
+        - The Collections Module’s Main Abstract Base Classes
+        - `__init__()`
+        - property is abstract
+    - Multiple Inheritance
+    - Metaclasses
+        - `__new__()`
+        - `__init__()`
+
+## Procedural Programming Techniques
+- FURTHER PROCEDURAL PROGRAMMING
+    - Branching Using Dictionaries
+    - Generator Expressions and Functions
+    - Dynamic Code Execution and Dynamic Imports
+        - Dynamic Code Execution
+            - eval()
+            - exec()
+            - globals()
+        - Dynamically Importing Modules
+            - Dynamic Programming and Introspection Functions
+        - Function and Method Decorators
+            - @functools.wraps
+        - Function Annotations
+            - `__annotations__`
+            - type-checking decorator
+
+## Functional-Style Programming
+- functools.reduce()
+- operator.attrgetter()
+- itertools.chain()
+- Partial Function Application
+    - Coroutines
+        - yield
+    - Performing Independent Actions on Data
+    - Composing Pipelines
 
 
 [0]: CorePythonProgramming/
@@ -84,3 +276,8 @@
 [30]: ExpertPythonProgramming/
 [31]: ExpertPythonProgramming/SyntaxBestPracticesBelowTheClassLevel.md
 [32]: ExpertPythonProgramming/SyntaxBestPracticesAboveTheClassLevel.md
+
+
+
+[40]: ProgrammingInPython3/
+[41]: ProgrammingInPython3/DataTypes.md
