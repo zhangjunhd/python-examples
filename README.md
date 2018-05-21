@@ -41,6 +41,10 @@
     - [collection小技巧][18]
     - [生成器][19]
     - [可变长参数][20]
+1. [Python高级编程][30]
+    - [语法最佳实践——低于类级][31]
+
+
 
 
 [0]: CorePythonProgramming/
@@ -64,3 +68,6 @@
 [18]: CorePythonProgramming/collection.md
 [19]: CorePythonProgramming/gen.md
 [20]: CorePythonProgramming/var_arg.md
+
+[30]: ExpertPythonProgramming/
+[31]: ExpertPythonProgramming/SyntaxBestPracticesBelowTheClassLevel.md
