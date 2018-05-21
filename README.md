@@ -148,25 +148,24 @@
                 - built-in collection types
                 - shallow-copy
                 - deep-copy
-
-## Control Structures and Functions
-- CONTROL STRUCTURES
-    - Conditional Branching
-    - Looping
-        - while Loops
-        - for Loops
-- EXCEPTION HANDLING
-    - Catching and Raising Exceptions
-        - Some of Python’s exception hierarchy
-        - Try ... except ... finally control flows
-    - Raising Exceptions
-    - Custom Exceptions
-- CUSTOM FUNCTIONS
-    - Argument and Parameter Unpacking
-    - Accessing Variables in the Global Scope
-        - global
-    - Lambda Functions
-    - Assertions
+    - [Control Structures and Functions][43]
+        - CONTROL STRUCTURES
+            - Conditional Branching
+            - Looping
+                - while Loops
+                - for Loops
+        - EXCEPTION HANDLING
+            - Catching and Raising Exceptions
+                - Some of Python’s exception hierarchy
+                - Try ... except ... finally control flows
+            - Raising Exceptions
+            - Custom Exceptions
+        - CUSTOM FUNCTIONS
+            - Argument and Parameter Unpacking
+            - Accessing Variables in the Global Scope
+                - global
+            - Lambda Functions
+            - Assertions
 
 ## Object-Oriented Programming
 - THE OBJECT-ORIENTED APPROACH
@@ -280,3 +279,4 @@
 [40]: ProgrammingInPython3/
 [41]: ProgrammingInPython3/DataTypes.md
 [42]: ProgrammingInPython3/CollectionDataTypes.md
+[43]: ProgrammingInPython3/ControlStructuresAndFunctions.md
