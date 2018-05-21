@@ -166,58 +166,57 @@
                 - global
             - Lambda Functions
             - Assertions
-
-## Object-Oriented Programming
-- THE OBJECT-ORIENTED APPROACH
-    - Object-Oriented Concepts and Terminology
-        - virtual
-- CUSTOM CLASSES
-    - Attributes and Methods
-        - Comparison Special Methods
-    - Inheritance and Polymorphism
-        - `__init__()`
-        - super()
-    - Using Properties to Control Attribute Access
-        - property()
-        - @property
-        - getter, setter, and docstring
-        - getter, setter, and deleter
-    - Creating Complete Fully Integrated Data Types
-        - Fundamental Special Methods
-        - Numeric and Bitwise Special Methods
-        - `__del__(self)`
-- CUSTOM COLLECTION CLASSES
-    - Collection Special Methods
-- FURTHER OBJECT-ORIENTED PROGRAMMING
-    - `__slots__`,`__dict__`
-    - Controlling Attribute Access
-        - `__getattr__()`, `__setattr__()`, and 
-        - Attribute Access Special Methods
-        - named tuples
-        - read-only properties
-        - `__getattr__()`,`__getattribute__()`
-        - `__class__`
-    - Functors
-        - `__call__()`
-        - closure
-        - people.sort(key=SortKey("surname")),people.sort(key=SortKey("surname", "forename"))
-        - operator.attrgetter(),people.sort(key=operator.attrgetter("surname", "forename"))
-    - Context Managers
-        - `__enter__()` and `__exit__()`
-        - with
-    - Descriptors
-        - `__get__()`, `__set__()`, and `__delete__()`
-    - Class Decorators
-        - nonlocal
-    - Abstract Base 
-        - The Numbers Module’s Abstract Base Classes
-        - The Collections Module’s Main Abstract Base Classes
-        - `__init__()`
-        - property is abstract
-    - Multiple Inheritance
-    - Metaclasses
-        - `__new__()`
-        - `__init__()`
+    - [Object-Oriented Programming][44]
+        - THE OBJECT-ORIENTED APPROACH
+            - Object-Oriented Concepts and Terminology
+                - virtual
+        - CUSTOM CLASSES
+            - Attributes and Methods
+                - Comparison Special Methods
+            - Inheritance and Polymorphism
+                - `__init__()`
+                - super()
+            - Using Properties to Control Attribute Access
+                - property()
+                - @property
+                - getter, setter, and docstring
+                - getter, setter, and deleter
+            - Creating Complete Fully Integrated Data Types
+                - Fundamental Special Methods
+                - Numeric and Bitwise Special Methods
+                - `__del__(self)`
+        - CUSTOM COLLECTION CLASSES
+            - Collection Special Methods
+        - FURTHER OBJECT-ORIENTED PROGRAMMING
+            - `__slots__`,`__dict__`
+            - Controlling Attribute Access
+                - `__getattr__()`, `__setattr__()`, and 
+                - Attribute Access Special Methods
+                - named tuples
+                - read-only properties
+                - `__getattr__()`,`__getattribute__()`
+                - `__class__`
+            - Functors
+                - `__call__()`
+                - closure
+                - people.sort(key=SortKey("surname")),people.sort(key=SortKey("surname", "forename"))
+                - operator.attrgetter(),people.sort(key=operator.attrgetter("surname", "forename"))
+            - Context Managers
+                - `__enter__()` and `__exit__()`
+                - with
+            - Descriptors
+                - `__get__()`, `__set__()`, and `__delete__()`
+            - Class Decorators
+                - nonlocal
+            - Abstract Base 
+                - The Numbers Module’s Abstract Base Classes
+                - The Collections Module’s Main Abstract Base Classes
+                - `__init__()`
+                - property is abstract
+            - Multiple Inheritance
+            - Metaclasses
+                - `__new__()`
+                - `__init__()`
 
 ## Procedural Programming Techniques
 - FURTHER PROCEDURAL PROGRAMMING
@@ -280,3 +279,4 @@
 [41]: ProgrammingInPython3/DataTypes.md
 [42]: ProgrammingInPython3/CollectionDataTypes.md
 [43]: ProgrammingInPython3/ControlStructuresAndFunctions.md
+[44]: ProgrammingInPython3/Object-OrientedProgramming.md
