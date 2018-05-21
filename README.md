@@ -99,56 +99,55 @@
             - Character Encodings
                 - str.encode()
                 - str.encode()
-
-## Collection Data Types
-- SEQUENCE TYPES
-    - Tuples
-        - Tuple index positions
-        - t.count(x)
-        - operators + (concatenation), * (replication), and [] (slice), and with in and not in
-        - the standard comparison operators (<, <=, ==, !=, >=, >)
-    - Named Tuples
-    - Lists
-        - List index positions
-        - List Methods
-        - sequence unpacking operator, an asterisk or star (*)
-        - starred expressions
-        - starred arguments
-    - List Comprehensions
-- SET TYPES
-    - Sets
-        - The standard set operators
-        - Set Methods and Operators
-    - Set Comprehensions
-    - Frozen Sets
-        - frozenset()
-- MAPPING TYPES
-    - Dictionaries
-        - Dictionary Methods
-        - dict.items(), dict.keys(), and dict.values() methods all return dictionary views
-        - membership operator, in
-        - intersection operator
-        - dict.get()
-    - Dictionary Comprehensions
-    - Default Dictionaries
-    - Ordered Dictionaries
-        - popitem()
-        - popitem(last=False)
-- ITERATING AND COPYING COLLECTIONS
-    - Iterators and Iterable Operations and Functions
-        - `__iter__()`,`__getitem__()`,`__next__()`,StopIteration
-        - Common Iterable Operators and Functions
-        - all(), any(), len(), min(), max(), and sum()
-        - range()
-        - zip()
-        - sorted(),reversed()
-    - Copying Collections
-        - operator (=)
-        - dict.copy() and set.copy()
-        - copy.copy()
-        - built-in collection types
-        - shallow-copy
-        - deep-copy
+    - [Collection Data Types][42]
+        - SEQUENCE TYPES
+            - Tuples
+                - Tuple index positions
+                - t.count(x)
+                - operators + (concatenation), * (replication), and [] (slice), and with in and not in
+                - the standard comparison operators (<, <=, ==, !=, >=, >)
+            - Named Tuples
+            - Lists
+                - List index positions
+                - List Methods
+                - sequence unpacking operator, an asterisk or star (*)
+                - starred expressions
+                - starred arguments
+            - List Comprehensions
+        - SET TYPES
+            - Sets
+                - The standard set operators
+                - Set Methods and Operators
+            - Set Comprehensions
+            - Frozen Sets
+                - frozenset()
+        - MAPPING TYPES
+            - Dictionaries
+                - Dictionary Methods
+                - dict.items(), dict.keys(), and dict.values() methods all return dictionary views
+                - membership operator, in
+                - intersection operator
+                - dict.get()
+            - Dictionary Comprehensions
+            - Default Dictionaries
+            - Ordered Dictionaries
+                - popitem()
+                - popitem(last=False)
+        - ITERATING AND COPYING COLLECTIONS
+            - Iterators and Iterable Operations and Functions
+                - `__iter__()`,`__getitem__()`,`__next__()`,StopIteration
+                - Common Iterable Operators and Functions
+                - all(), any(), len(), min(), max(), and sum()
+                - range()
+                - zip()
+                - sorted(),reversed()
+            - Copying Collections
+                - operator (=)
+                - dict.copy() and set.copy()
+                - copy.copy()
+                - built-in collection types
+                - shallow-copy
+                - deep-copy
 
 ## Control Structures and Functions
 - CONTROL STRUCTURES
@@ -278,6 +277,6 @@
 [32]: ExpertPythonProgramming/SyntaxBestPracticesAboveTheClassLevel.md
 
 
-
 [40]: ProgrammingInPython3/
 [41]: ProgrammingInPython3/DataTypes.md
+[42]: ProgrammingInPython3/CollectionDataTypes.md
