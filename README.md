@@ -41,6 +41,7 @@
     - [collection小技巧][18]
     - [生成器][19]
     - [可变长参数][20]
+    - [闭包编程][23]
     - [实例属性与类属性][21]
     - [元类编程][22]
 1. [Python高级编程][30]
@@ -269,6 +270,7 @@
 [20]: CorePythonProgramming/var_arg.md
 [21]: CorePythonProgramming/property.md
 [22]: CorePythonProgramming/meta-class_programming.md
+[23]: CorePythonProgramming/closure.md
 
 [30]: ExpertPythonProgramming/
 [31]: ExpertPythonProgramming/SyntaxBestPracticesBelowTheClassLevel.md

@@ -1,3 +1,5 @@
+_python3参考:[str.translate()](https://github.com/zhangjunhd/python-examples/blob/master/ProgrammingInPython3/DataTypes.md#string-operators-and-methods)_
+
 由于新式的字符串Template 对象的引进使得string 模块又重新活了过来，Template 对象有两个方法,substitute()和safe_substitute().前者更为严谨,在key 缺少的情况下它会报一个KeyError 的异常出来，而后者在缺少key 时，直接原封不动的把字符串显示出来.
 
     >>> from string import Template

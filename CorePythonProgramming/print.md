@@ -1,4 +1,7 @@
 # 格式化输出
+_python3参考:[String Formatting with the str.format() Method
+](https://github.com/zhangjunhd/python-examples/blob/master/ProgrammingInPython3/DataTypes.md#string-formatting-with-the-strformat-method)_
+
 Python的print语句，与字符串操作符(%)组合使用，可实现字符串替换功能，类似于C语言的printf()函数。
 
     >>>"%s is number %d" % ('Python', 1)
