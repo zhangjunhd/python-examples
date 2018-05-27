@@ -59,13 +59,13 @@
         - 描述符和属性
         - 槽
         - 元编程
-    - [优化：解决方案]
+    - [优化：解决方案][33]
         - 有序list中进行二分查找
         - set保存无重复key的list
         - deque
         - defaultdict
         - namedtuple
-    - [设计模式]
+    - [设计模式][34]
         - 单例模式
         - 外观模式
         - 观察者
@@ -292,6 +292,7 @@
 [31]: ExpertPythonProgramming/SyntaxBestPracticesBelowTheClassLevel.md
 [32]: ExpertPythonProgramming/SyntaxBestPracticesAboveTheClassLevel.md
 [33]: ExpertPythonProgramming/CollectionRefinement.md
+[34]: ExpertPythonProgramming/DesignPattern.md
 
 [40]: ProgrammingInPython3/
 [41]: ProgrammingInPython3/DataTypes.md
