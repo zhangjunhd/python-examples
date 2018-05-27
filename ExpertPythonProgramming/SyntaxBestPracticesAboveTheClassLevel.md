@@ -256,15 +256,15 @@ class MyClass(object):
         self._my_secret_thing = value
 
     def _i_delete(self):
-        print 'neh!'
+        print('neh!')
 
     my_thing = property(_i_get, _i_set, _i_delete, 'the thing')
 
 
 instance_of = MyClass()
-print instance_of.my_thing  # 1
+print(instance_of.my_thing)  # 1
 instance_of.my_thing = 3
-print instance_of.my_thing  # 3
+print(instance_of.my_thing)  # 3
 del instance_of.my_thing  # neh!
 help(instance_of)
 '''
@@ -288,6 +288,57 @@ class MyClass(__builtin__.object)
 '''
 ```
 
+在2.6中新增:[porperty装饰器](https://github.com/zhangjunhd/python-examples/blob/master/ProgrammingInPython3/Object-OrientedProgramming.md#using-properties-to-control-attribute-access)。如果不设置setter，则赋值时会报错，即是只读属性。
+
+```py
+class MyClass2(object):
+    def __init__(self):
+        self._my_secret_thing = 1
+
+    @property
+    def my_thing(self):
+        return self._my_secret_thing
+
+
+instance_of = MyClass2()
+print(instance_of.my_thing)  # 1
+instance_of.my_thing = 3
+
+1
+Traceback (most recent call last):
+  File "C:/Users/zhang/PycharmProjects/py-example/my_property.py", line 43, in <module>
+    instance_of.my_thing = 3
+AttributeError: can't set attribute
+```
+
+设置setter和deleter：
+
+```py
+class MyClass2(object):
+    def __init__(self):
+        self._my_secret_thing = 1
+
+    @property
+    def my_thing(self):
+        return self._my_secret_thing
+
+    @my_thing.setter
+    def my_thing(self, value):
+        self._my_secret_thing = value
+
+    @my_thing.deleter
+    def my_thing(self):
+        print('neh!')
+
+
+instance_of = MyClass2()
+print(instance_of.my_thing)  # 1
+instance_of.my_thing = 3
+print(instance_of.my_thing)  # 3
+del instance_of.my_thing  # neh!
+```
+
+
 overload_property.py
 
 ```py
@@ -300,9 +351,11 @@ class FirstClass(object):
 class SecondClass(FirstClass):
     def get_price(self):
         return '$ 20'
+    price = property(get_price) # 这句话必须写，不然无法override
+
 
 plane_ticket = SecondClass()
-print plane_ticket.get_price()  # $ 20
+print(plane_ticket.price)  # $ 20
 ```
 
 ## 3.5 槽
