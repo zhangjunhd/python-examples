@@ -219,23 +219,22 @@
             - Metaclasses
                 - `__new__()`
                 - `__init__()`
-
-## Procedural Programming Techniques
-- FURTHER PROCEDURAL PROGRAMMING
-    - Branching Using Dictionaries
-    - Generator Expressions and Functions
-    - Dynamic Code Execution and Dynamic Imports
-        - Dynamic Code Execution
-            - eval()
-            - exec()
-            - globals()
-        - Dynamically Importing Modules
-            - Dynamic Programming and Introspection Functions
-        - Function and Method Decorators
-            - @functools.wraps
-        - Function Annotations
-            - `__annotations__`
-            - type-checking decorator
+    - [Procedural Programming Techniques][45]
+        - FURTHER PROCEDURAL PROGRAMMING
+            - Branching Using Dictionaries
+            - Generator Expressions and Functions
+            - Dynamic Code Execution and Dynamic Imports
+                - Dynamic Code Execution
+                    - eval()
+                    - exec()
+                    - globals()
+                - Dynamically Importing Modules
+                    - Dynamic Programming and Introspection Functions
+                - Function and Method Decorators
+                    - @functools.wraps
+                - Function Annotations
+                    - `__annotations__`
+                    - type-checking decorator
 
 ## Functional-Style Programming
 - functools.reduce()
@@ -284,3 +283,4 @@
 [42]: ProgrammingInPython3/CollectionDataTypes.md
 [43]: ProgrammingInPython3/ControlStructuresAndFunctions.md
 [44]: ProgrammingInPython3/Object-OrientedProgramming.md
+[45]: ProgrammingInPython3/ProceduralProgrammingTechniques.md
