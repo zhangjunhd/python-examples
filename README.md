@@ -59,6 +59,18 @@
         - 描述符和属性
         - 槽
         - 元编程
+    - [优化：解决方案]
+        - 有序list中进行二分查找
+        - set保存无重复key的list
+        - deque
+        - defaultdict
+        - namedtuple
+    - [设计模式]
+        - 单例模式
+        - 外观模式
+        - 观察者
+        - 访问者
+        - 模板
 1. [Programming in Python 3][40]
     - [Data Types][41]
         - IDENTIFIERS AND KEYWORDS
@@ -279,7 +291,7 @@
 [30]: ExpertPythonProgramming/
 [31]: ExpertPythonProgramming/SyntaxBestPracticesBelowTheClassLevel.md
 [32]: ExpertPythonProgramming/SyntaxBestPracticesAboveTheClassLevel.md
-
+[33]: ExpertPythonProgramming/CollectionRefinement.md
 
 [40]: ProgrammingInPython3/
 [41]: ProgrammingInPython3/DataTypes.md
