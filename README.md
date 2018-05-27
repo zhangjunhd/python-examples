@@ -235,16 +235,15 @@
                 - Function Annotations
                     - `__annotations__`
                     - type-checking decorator
-
-## Functional-Style Programming
-- functools.reduce()
-- operator.attrgetter()
-- itertools.chain()
-- Partial Function Application
-    - Coroutines
-        - yield
-    - Performing Independent Actions on Data
-    - Composing Pipelines
+    - [Functional-Style Programming][46]
+        - functools.reduce()
+        - operator.attrgetter()
+        - itertools.chain()
+        - Partial Function Application
+            - Coroutines
+                - yield
+            - Performing Independent Actions on Data
+            - Composing Pipelines
 
 
 [0]: CorePythonProgramming/
@@ -284,3 +283,4 @@
 [43]: ProgrammingInPython3/ControlStructuresAndFunctions.md
 [44]: ProgrammingInPython3/Object-OrientedProgramming.md
 [45]: ProgrammingInPython3/ProceduralProgrammingTechniques.md
+[46]: ProgrammingInPython3/Functional-StyleProgramming.md
