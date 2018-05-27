@@ -45,6 +45,8 @@
     - [闭包编程][23]
     - [实例属性与类属性][21]
     - [元类编程][22]
+    - [filter()、map()、reduce()与lambda][25]
+    - [偏函数应用][26]
 1. [Python高级编程][30]
     - [语法最佳实践——低于类级][31]
         - 列表推导
@@ -271,6 +273,8 @@
 [22]: CorePythonProgramming/meta-class_programming.md
 [23]: CorePythonProgramming/closure.md
 [24]: CorePythonProgramming/import.md
+[25]: CorePythonProgramming/lambda.md
+[26]: CorePythonProgramming/currying.md
 
 [30]: ExpertPythonProgramming/
 [31]: ExpertPythonProgramming/SyntaxBestPracticesBelowTheClassLevel.md
