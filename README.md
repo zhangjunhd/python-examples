@@ -21,6 +21,7 @@
         - random.random()和random.uniform()
         - random.choice()和random.sample()
         - random.shuffle()
+    - [import][24]
     - [socket编程][4]
     - [字符串模板][5]
     - [命令行参数解析optparse][6]
@@ -271,6 +272,7 @@
 [21]: CorePythonProgramming/property.md
 [22]: CorePythonProgramming/meta-class_programming.md
 [23]: CorePythonProgramming/closure.md
+[24]: CorePythonProgramming/import.md
 
 [30]: ExpertPythonProgramming/
 [31]: ExpertPythonProgramming/SyntaxBestPracticesBelowTheClassLevel.md
