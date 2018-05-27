@@ -62,7 +62,34 @@ print one.a  # 2
 不推荐单例的类有多级的继承。Python模块也是一个单例，可以考虑使用带有函数的模块来代替。
 
 ## 外观模式
-一般不需要类来提供外观模式，\_\_init\_\_.py模块中的简单函数就足够了。
+一般不需要类来提供外观模式，\_\_init\_\_.py模块中的简单函数就足够了。我们在导入一个包时，实际上是导入了它的\_\_init\_\_.py文件。这样我们可以在\_\_init\_\_.py文件中批量导入我们所需要的模块，而不再需要一个一个的导入。
+
+```py
+# package
+# __init__.py
+import re
+import urllib
+import sys
+import os
+
+# a.py
+import package 
+print(package.re, package.urllib, package.sys, package.os)
+```
+
+注意这里访问__init__.py文件中的引用文件，需要加上包名。
+
+\_\_init\_\_.py中还有一个重要的变量，\_\_all\_\_, 它用来将模块全部导入。
+
+```py
+# __init__.py
+__all__ = ['os', 'sys', 're', 'urllib']
+
+# a.py
+from package import *
+```
+
+这时就会把注册在\_\_init\_\_.py文件中\_\_all\_\_列表中的模块和包导入到当前文件中来。
 
 ## 观察者
 observer.py
