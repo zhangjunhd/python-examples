@@ -7,24 +7,6 @@ python的logging主要有四个组件：
 
 logging是线程安全的。
 
-## 控制台输出
-默认情况下，logging将日志打印到屏幕，日志级别为WARNING。日志级别大小关系为：CRITICAL > ERROR > WARNING > INFO > DEBUG > NOTSET。
-
-```py
-# -*- coding: utf-8 -*-
-
-import logging
-
-logging.debug('This is debug message')
-logging.info('This is info message')
-logging.warning('This is warning message')
-```
-
-输出
-```
-WARNING:root:This is warning message
-```
-
 ## 通过logging.basicConfig函数对日志的输出格式及方式做相关配置
 ```py
 # -*- coding: utf-8 -*-
@@ -199,4 +181,89 @@ logger = logging.getLogger("example02")
 logger.debug('This is debug message')
 logger.info('This is info message')
 logger.warning('This is warning message')
+```
+
+## 项目中配置日志模板
+项目根目录logger.json
+
+```json
+{
+  "version": 1,
+  "disable_existing_loggers": false,
+  "formatters": {
+    "standard": {
+      "format": "[%(asctime)s] [%(levelname)s]  [%(module)s:%(lineno)d]  [%(thread)d] %(message)s"
+    }
+  },
+  "handlers": {
+    "default": {
+      "level": "INFO",
+      "formatter": "standard",
+      "class": "logging.handlers.TimedRotatingFileHandler",
+      "filename": "./server.log",
+      "when": "midnight",
+      "interval": 1
+    },
+    "streamerror": {
+      "formatter": "standard",
+      "class": "logging.StreamHandler",
+      "level": "INFO",
+      "stream": "ext://sys.stdout"
+    }
+  },
+  "loggers": {
+    "": {
+      "handlers": [
+        "default", "streamerror"
+      ],
+      "level": "DEBUG",
+      "propagate": true
+    }
+  }
+}
+```
+
+项目根目录的 `__init__.py`
+
+```py
+#!/bin/env python
+
+import os
+import json
+import logging
+import logging.config
+from . import definition
+
+
+def init():
+    with open(os.path.join(definition.ROOT_DIR, 'logger.json')) as f:
+        logging.config.dictConfig(json.loads(f.read()))
+
+
+init()
+
+```
+
+项目根目录的 `definition.py`
+
+```py
+#!/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))  # Project Root Directory
+STAT_DIR = os.path.join(ROOT_DIR, 'statistics')
+DB_DIR = os.path.join(ROOT_DIR, 'db')
+
+```
+
+项目中使用日志模块：
+
+```py
+import logging
+
+logger = logging.getLogger(__name__)
+
+ logger.info('xxx')
 ```
